@@ -3,7 +3,12 @@
 <div class="container">
  <div class="row">
    <div class="col-xs-12">
-      <h3>This is app component</h3>
+      <h1>This is app components</h1>
+      <div class="container" style="height:500px;overflow-y:auto">
+        <div *ngFor="let hero of heroes">
+          <div appHover>{{hero.name}}</div>
+        </div>
+      </div>
    </div>
  </div>
 </div>
