@@ -9,7 +9,7 @@ export class RecipeListComponent implements OnInit {
 
   constructor() { }
   recipes:Recipe[] = [
-    new Recipe('test','wow','https://www.gimmesomeoven.com/wp-content/uploads/2014/03/Cajun-Jambalaya-Recipe-with-Andouille-Sausage-Shrimp-and-Chicken-32.jpg')
+    new Recipe('test','wow','https://cdn.pixabay.com/photo/2017/07/16/10/43/recipe-2508859_960_720.jpg')
   ]
   ngOnInit() {
   }
