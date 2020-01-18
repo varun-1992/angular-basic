@@ -7,14 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
 
+  loadedFeature = 'recipe'
   constructor(){}
-
-  heroes:any = []
-
   ngOnInit(){
     console.log('inside oninit');
-    for(let i=0;i<100;i++){
-      this.heroes.push({name : 'abc'+Math.random()*2.5,id:Math.random()})
-    }
+
+  }
+
+  onNavigate(feature:string){
+    this.loadedFeature = feature;
   }
 }
