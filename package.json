@@ -22,7 +22,7 @@
     "@angular/router": "8.2.14",
     "bootstrap": "^3.4.1",
     "core-js": "3.6.1",
-    "jquery": "3.4.1",
+    "jquery": "3.5.0",
     "popper": "1.0.1",
     "protractor": "5.4.2",
     "rxjs": "6.5.3",
